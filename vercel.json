@@ -1,9 +1,9 @@
-{
-    "rewriters": [
-      {
-        "source": "/(.*)",
-        "destination": "/"
-      }
-    ]
-  }
+// {
+//     "rewriters": [
+//       {
+//         "source": "/(.*)",
+//         "destination": "/"
+//       }
+//     ]
+//   }
   
