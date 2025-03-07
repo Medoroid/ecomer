@@ -23,6 +23,7 @@ import {
 } from '@tanstack/react-query'
 import { Provider } from 'react-redux'
 import {store} from './lib/redux/store'
+import { WishContext } from './Context/WishContext/WishContext'
 //react Query
 
 export default function App() {
@@ -54,6 +55,7 @@ let routs = createBrowserRouter([
 />
     </UserProvider>
   </CartProvider>
+
 </QueryClientProvider>
 </Provider>
     </>
